@@ -1,0 +1,27 @@
+.container {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #1eb1e2;
+  transition: 0.5s ease;
+}
+.container:hover {
+  transform: scale(1.05);
+}
+.cardImg {
+  height: 300px;
+  width: 300px;
+}
+.search {
+  padding: 10px;
+  margin: 15px 0;
+  outline: none;
+  background: #45e0ad;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
